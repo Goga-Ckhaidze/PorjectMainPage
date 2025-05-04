@@ -1,0 +1,156 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.welcomeSection {
+  position: relative;
+  width: 100%;
+  height: 750px;
+  overflow: hidden;
+}
+
+.welcomeVideoDiv {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.welcomeVideo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.carouselOverlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  color: white;
+}
+
+.carouselItem {
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.clientTitle {
+  color: #232323;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 125px;
+}
+
+.clientDescribe {
+  color: #232323;
+  font-size: 17px;
+  text-align: center;
+  padding: 50px 25px;
+}
+
+.container-1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aboutCompany {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.logo {
+  max-width: 200px;
+  height: 50px;
+}
+
+.companyLogos {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.parallax {
+  background-image: url('thumb-1920-959317.jpg'); 
+  height: 500px;
+  background-attachment: fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxTextOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  z-index: 2;
+}
+
+.tb50 {
+  margin: 125px 0;
+}
+
+.miniCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.miniTitle {
+  color: #ffffff;
+}
+
+.miniCard {
+  text-align: center;
+  min-width: 16.6666667%;
+}
+
+.top50 {
+  padding-top: 50px;
+}
+
+.solutionsTitle {
+  color: #232323;
+  font-size: 32px;
+  text-align: center;
+}
+
+.solutionsDescribe {
+  color: #232323;
+  font-size: 17px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.solutionsDiv {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.container-750 {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.miniCard:hover {
+  background-color: rgba(128, 128, 128, 0.308);
+  border-radius: 10px;
+  cursor: pointer;
+}
