@@ -34,6 +34,8 @@ function App() {
     "https://cotmac.io/wp-content/uploads/2024/07/Cotmac_PatnerLogo-36.png",
     "https://cotmac.io/wp-content/uploads/2024/07/Cotmac_PatnerLogo-37.png",
   ];
+
+  // zzz
   
   const sectionRef = useRef(null);
   const [animate, setAnimate] = useState(false);
