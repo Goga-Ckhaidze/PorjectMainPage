@@ -46,7 +46,7 @@
   }
   
   .miniRobot {
-    background-image: url('za.png');
+    background-image: url('/za.png');
     max-width: 30%;
     min-width: 30%;
     background-size: cover;
@@ -98,7 +98,7 @@
   }
 
   .workImage {
-    background-image: url(zazaza.jpg);
+    background-image: url('/zazaza.jpg');
     max-width: 10%;
     min-width: 30%;
     height: 230px;
@@ -126,7 +126,7 @@
   }
 
   .teamImage {
-    background-image: url('team.jpg');
+    background-image: url('/team.jpg');
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
