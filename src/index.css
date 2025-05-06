@@ -15,19 +15,7 @@ body {
   overflow: hidden;
 }
 
-.welcomeVideoDiv {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
 
-.welcomeVideo {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
-}
 
 .carouselOverlay {
   position: relative;
@@ -462,6 +450,12 @@ body {
   padding: 40px 0;
 }
 
+.welcomeVideoDiv {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .testimonial-card {
   min-width: 300px;
   max-width: 400px;
@@ -545,6 +539,102 @@ body {
   height: 100vh;  
 }
 
+.welcomeMainImage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.ourTitle {
+  font-size: 42px;
+  color: #222222;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.ourSpan {
+  color: #1b57fde1;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.ourText {
+  color: rgb(37, 37, 37);
+  font-size: 17px;
+  padding-top: 15px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.flexProducts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products-25 {
+  max-width: 25%;
+  min-width: 25%;
+}
+
+.ourImages {
+  width: 100%;
+  height: 125px;
+}
+
+.ourMiniText {
+  text-align: center;
+  color: rgb(37, 37, 37);
+  padding: 0 20px;
+}
+
+.imgCenter {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.ourMiniTitle {
+  color: #1b57fde1;
+  text-align: center;
+  padding: 30px 0px 10px 0px;
+}
+
+.middleImageDiv {
+  width: 100%;
+  height: 700px;
+  margin: 125px 0px;
+}
+
+.middleImage {
+  width: 100%;
+  height: 100%;
+}
+
+.ourServices {
+  background-image: url('/images/bulu.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.servicesTitle {
+  text-align: center;
+  font-size: 42px;
+  color: #ffffff;
+  padding-top: 100px;
+}
+
+.servicesText {
+  color: #ffffff;
+  font-size: 17px;
+  text-align: center;
+  padding-bottom: 200px;
+  padding-top: 10px;
+}
 @media (max-width: 1210px) {
   .companyLogos {
     padding: 0px 20px;

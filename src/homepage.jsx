@@ -5,6 +5,7 @@ import { Navigation } from 'swiper/modules';
 import { Autoplay } from 'swiper/modules';
 import { Parallax } from 'react-parallax';
 import React, { useEffect, useRef, useState } from 'react';
+import Carousel from './components/Carousel';
 
 
 function App() {
@@ -103,19 +104,16 @@ function App() {
     } else {
       container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
     }
+  
   };
+
+    const slides = Array.from({ length: 8 }, (_, i) => `Slide ${i + 1}`);
+      
   return (
     <>
     <section className="welcomeSection">
       <div className="welcomeVideoDiv">
-        <video
-          className="welcomeVideo"
-          autoPlay
-          muted
-          loop
-          playsInline
-          src="https://cotmac.io/wp-content/uploads/2024/08/Cotmac-Video-Banner-03.mp4"
-        ></video>
+        <img src="/images/Captureee.PNG" alt="" className='welcomeMainImage' />
 
         <div className="carouselOverlay">
           <Swiper
@@ -141,6 +139,128 @@ function App() {
 
     <section className='middleSection'>
       <div className="container-1200">
+
+        <h1 className='ourTitle'><span className='ourSpan'>OUR</span> PRODUCTS</h1>
+        <p className='ourText'>We are glad to introduce as Distributon and Service Provider of <span className='bold'>SIEMENS</span> & <span className='bold'>EXOR</span> products.<br/> We Have Wide Range Of Following Major Products</p>
+        
+        <div className="flexProducts">
+          <div className="products-25">
+            <div className='imgCenter'>
+              <img src="/images/vaaaaa.png" alt="" className='ourImages' />
+            </div>
+            <h1 className='ourMiniTitle'>PLC</h1>
+              <p className='ourMiniText'><span className='ourSpan'>A progammable</span> logic controller is an industrial digital computer Used to perform logical operations</p>
+          </div>
+          <div className="products-25">
+          <div className='imgCenter'>
+            <img src="/images/vaaaaaa.png" alt="" className='ourImages' />
+          </div>
+          <h1 className='ourMiniTitle'>HMI</h1>
+            <p className='ourMiniText'><span className='ourSpan'>Human</span> machine interface is a display device used to provide process visualization and animation</p>
+          </div>
+          <div className="products-25">
+          <div className='imgCenter'>
+            <img src="/images/vaaa.jpg" alt="" className='ourImages' />
+          </div>
+          <h1 className='ourMiniTitle'>SCADA</h1>
+            <p className='ourMiniText'><span className="ourSpan">Supervisory</span> control and data acquistion system for high-level process supervisory management</p>
+          </div>
+          <div className="products-25">
+          <div className='imgCenter'>
+            <img src="/images/vaaaa.png" alt="" className='ourImages' />
+          </div>
+          <h1 className='ourMiniTitle'>DRIVES</h1>
+          <p className='ourMiniText'><span className="ourSpan">A variable-frequency</span> drive used to facillate electro-mechanical movement in machine</p>
+          </div>
+        </div>
+
+        <div className="middleImageDiv">
+          <img src="/images/C.PNG" alt="" className='middleImage' />
+        </div>
+        </div>
+
+<div className='ourServices'>
+  <h1 className='servicesTitle'>OUR SERVICES</h1>
+  <p className='servicesText'>Automax industries is a leading Engineering and Software services provider company for <br/>global projects in Plant / Equipment / Machine and Process Automation.</p>
+  <Swiper
+        modules={[Navigation, Autoplay]}
+        navigation
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        loop
+        spaceBetween={30}
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1200: {
+            slidesPerView: 3,
+          },
+          1600: {
+            slidesPerView: 4,
+          },
+        }}
+        >
+      <SwiperSlide>
+          <div className="carouselItem">
+            <h3>Service 1</h3>
+            <p>Description for Service 1</p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="carouselItem">
+            <h3>Service 2</h3>
+            <p>Description for Service 2</p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="carouselItem">
+            <h3>Service 3</h3>
+            <p>Description for Service 3</p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="carouselItem">
+            <h3>Service 4</h3>
+            <p>Description for Service 4</p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="carouselItem">
+            <h3>Service 5</h3>
+            <p>Description for Service 5</p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="carouselItem">
+            <h3>Service 6</h3>
+            <p>Description for Service 6</p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="carouselItem">
+            <h3>Service 7</h3>
+            <p>Description for Service 6</p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="carouselItem">
+            <h3>Service 8</h3>
+            <p>Description for Service 6</p>
+          </div>
+        </SwiperSlide>
+    </Swiper>
+    </div>
+        
         <div className='aboutCompany'>
       <h1 className='clientTitle'>CLIENTS</h1>
       <p className='clientDescribe'>We deliver advanced & tailored automation solutions to some of the most respected companies across the world.</p>
@@ -190,7 +310,6 @@ function App() {
       ))}
     </Swiper>
       </div> 
-      </div>
       <div className='tb50'></div>
 
       <Parallax bgImage="thumb-1920-959317.jpg" strength={300}>
