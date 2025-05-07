@@ -5,7 +5,6 @@ import { Navigation } from 'swiper/modules';
 import { Autoplay } from 'swiper/modules';
 import { Parallax } from 'react-parallax';
 import React, { useEffect, useRef, useState } from 'react';
-import Carousel from './components/Carousel';
 
 
 function App() {
@@ -113,7 +112,7 @@ function App() {
     <>
     <section className="welcomeSection">
       <div className="welcomeVideoDiv">
-        <img src="/images/Captureee.PNG" alt="" className='welcomeMainImage' />
+        <img src="/images/xxxxx.png" alt="" className='welcomeMainImage' />
 
         <div className="carouselOverlay">
           <Swiper
@@ -124,13 +123,22 @@ function App() {
             loop
           >
             <SwiperSlide>
-              <div className="carouselItem">This is Slide 1</div>
+              <div className="carouselItem">
+                <img src="/images/automaxxx.png" className='automaxxx' alt="" />
+                <p>slide 1</p>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="carouselItem">Welcome to Slide 2</div>
+              <div className="carouselItem">
+              <img src="/images/automaxxx.png" className='automaxxx' alt="" />
+              <p>slide 2</p>
+              </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="carouselItem">Explore Slide 3</div>
+              <div className="carouselItem">
+              <img src="/images/automaxxx.png" className='automaxxx' alt="" />
+              <p>slide 3</p>
+              </div>
             </SwiperSlide>
           </Swiper>
         </div>
@@ -153,7 +161,7 @@ function App() {
           </div>
           <div className="products-25">
           <div className='imgCenter'>
-            <img src="/images/vaaaaaa.png" alt="" className='ourImages' />
+            <img src="/images/ikk.jpg" alt="" className='ourImages' />
           </div>
           <h1 className='ourMiniTitle'>HMI</h1>
             <p className='ourMiniText'><span className='ourSpan'>Human</span> machine interface is a display device used to provide process visualization and animation</p>
@@ -175,7 +183,7 @@ function App() {
         </div>
 
         <div className="middleImageDiv">
-          <img src="/images/C.PNG" alt="" className='middleImage' />
+          <img src="/images/xx.png" alt="" className='middleImage' />
         </div>
         </div>
 
@@ -205,64 +213,85 @@ function App() {
         >
       <SwiperSlide>
           <div className="carouselItem">
-            <h3>Service 1</h3>
-            <p>Description for Service 1</p>
+            <div className="ourImageDiv">
+              <img src="/images/b1.PNG" className='ourImage' alt="" />
+            </div>
+            <p className='serviceText'>PANEL <br/> MANUACTURING</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="carouselItem">
-            <h3>Service 2</h3>
-            <p>Description for Service 2</p>
+            <div className="ourImageDiv">
+              <img src="/images/b2.PNG" className='ourImage' alt="" />
+            </div>
+            <p className='serviceText'>PROCESS <br/> AUTOMATION</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="carouselItem">
-            <h3>Service 3</h3>
-            <p>Description for Service 3</p>
+            <div className="ourImageDiv">
+              <img src="/images/b3.PNG" className='ourImage' alt="" />
+            </div>
+            <p className='serviceText'>MACHINE <br/> RETROFITTING</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="carouselItem">
-            <h3>Service 4</h3>
-            <p>Description for Service 4</p>
+            <div className="ourImageDiv">
+              <img src="/images/b4.PNG" className='ourImage' alt="" />
+            </div>
+            <p className='serviceText'>PROGRAM <br/> TROUBLESHOOTING</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="carouselItem">
-            <h3>Service 5</h3>
-            <p>Description for Service 5</p>
+            <div className="ourImageDiv">
+              <img src="/images/b1.PNG" className='ourImage' alt="" />
+            </div>
+            <p className='serviceText'>PANEL <br/> MANUACTURING</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="carouselItem">
-            <h3>Service 6</h3>
-            <p>Description for Service 6</p>
+            <div className="ourImageDiv">
+              <img src="/images/b2.PNG" className='ourImage' alt="" />
+            </div>
+            <p className='serviceText'>PROCESS <br/> AUTOMATION</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="carouselItem">
-            <h3>Service 7</h3>
-            <p>Description for Service 6</p>
+            <div className="ourImageDiv">
+              <img src="/images/b3.PNG" className='ourImage' alt="" />
+            </div>
+            <p className='serviceText'>MACHINE <br/> RETROFITTING</p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="carouselItem">
-            <h3>Service 8</h3>
-            <p>Description for Service 6</p>
+            <div className="ourImageDiv">
+              <img src="/images/b4.PNG" className='ourImage' alt="" />
+            </div>
+            <p className='serviceText'>PROGRAM <br/> TROUBLESHOOTING</p>
           </div>
         </SwiperSlide>
+
     </Swiper>
+    <div className="centerDiv">
+    <button className='button'>LEARN MORE</button>
     </div>
-        
+    </div>
+
+     <div className="container-1500">   
         <div className='aboutCompany'>
-      <h1 className='clientTitle'>CLIENTS</h1>
+      <h1 className='clientTitle'><span className='ourSpan'>OUR </span>CLIENTS</h1>
       <p className='clientDescribe'>We deliver advanced & tailored automation solutions to some of the most respected companies across the world.</p>
       </div>
       <div className='companyLogos'>
@@ -285,246 +314,137 @@ function App() {
       ))}
     </Swiper>
       </div>
-
-      <div className='aboutCompany'>
-      <h1 className='clientTitle'>PARTNERS</h1>
-      <p className='clientDescribe'>We partner with leading global companies to build sophisticated automation solutions tailored for a wide range of requirements.</p>
       </div>
-      <div className='companyLogos'>
-      <Swiper
-      modules={[Autoplay]}
-      autoplay={{ delay: 2000, disableOnInteraction: false }}
-      loop={true}
-      spaceBetween={20}
-      slidesPerView={1}
-      breakpoints={{
-        640: { slidesPerView: 2 },
-        768: { slidesPerView: 4 },
-        1024: { slidesPerView: 5 }
-      }}
-    >
-      {logoUrls2.map((url, i) => (
-        <SwiperSlide key={i}>
-          <img src={url} alt={`companyLogo-${i}`} className="logo" />
-        </SwiperSlide>
-      ))}
-    </Swiper>
-      </div> 
+
+<div className="tb35"></div>
+
+      <div className="centerDiv">
+        <button className='button'>LEARN MORE</button>
+      </div>
+
       <div className='tb50'></div>
 
-      <Parallax bgImage="thumb-1920-959317.jpg" strength={300}>
-  <div className='height' style={{ height: 620 }}>
-    <div className='container-500'>
-    <h1 style={{ color: '#ffffff', textAlign: 'center', paddingTop: '75px', fontSize: '34px'}}>
-    Industries
-    </h1>
+<div className="container-1500">
 
-    <p style={{ color: '#ffffff', textAlign: 'center', paddingTop: '25px', fontSize: '17px'}}>We cater to diverse industries, enabling them to optimise their processes through innovative automation solutions.</p>
-    </div>
-  <div className='tb50'></div>
-
-  <div className="container-1200">
-    <div className='miniCards'>
-      <div className='miniCard'>
-        <img src="https://cotmac.io/wp-content/uploads/2024/02/Cotmac-Energy-1.png" alt="" />
-        <h1 className='miniTitle'>Automotive <br/> Sector</h1>
-      </div>
-      <div className='miniCard'>
-        <img src="https://cotmac.io/wp-content/uploads/2024/02/Cotmac-Cement-Metal-Minings-1.png" alt="" />
-        <h1 className='miniTitle'>Cement <br/> Industry</h1>
-      </div>
-      <div className='miniCard'>
-        <img src="https://cotmac.io/wp-content/uploads/2024/02/Cotmac-Data-Center-1.png" alt="" />
-        <h1 className='miniTitle'>Data <br/> Centers</h1>
-      </div>
-      <div className='miniCard'>
-        <img src="https://cotmac.io/wp-content/uploads/2024/02/Cotmac-Energy-1.png" alt="" />
-        <h1 className='miniTitle'>Energy <br/> Sector</h1>
-      </div>
-      <div className='miniCard top50top'>
-        <img src="https://cotmac.io/wp-content/uploads/2024/02/Cotmac-FoodBeverages-1.png" alt="" />
-        <h1 className='miniTitle'>Food & <br/> Baverages</h1>
-      </div>
-      <div className='miniCard top50top'>
-        <img src="https://cotmac.io/wp-content/uploads/2024/02/Cotmac-Intralogsitics-1.png" alt="" />
-        <h1 className='miniTitle'>Intralogistics <br/> Automation</h1>
-      </div>
-
-      <div className='miniCard top50'>
-        <img src="https://cotmac.io/wp-content/uploads/2024/02/Cotmac-Energy-1.png" alt="" />
-        <h1 className='miniTitle'>Automotive <br/> Sector</h1>
-      </div>
-      <div className='miniCard top50'>
-        <img src="https://cotmac.io/wp-content/uploads/2024/02/Cotmac-Cement-Metal-Minings-1.png" alt="" />
-        <h1 className='miniTitle'>Cement <br/> Industry</h1>
-      </div>
-      <div className='miniCard top50'>
-        <img src="https://cotmac.io/wp-content/uploads/2024/02/Cotmac-Data-Center-1.png" alt="" />
-        <h1 className='miniTitle'>Data <br/> Centers</h1>
-      </div>
-      <div className='miniCard top50'>
-        <img src="https://cotmac.io/wp-content/uploads/2024/02/Cotmac-Energy-1.png" alt="" />
-        <h1 className='miniTitle'>Energy <br/> Sector</h1>
-      </div>
-      <div className='miniCard top50'>
-        <img src="https://cotmac.io/wp-content/uploads/2024/02/Cotmac-FoodBeverages-1.png" alt="" />
-        <h1 className='miniTitle'>Food & <br/> Baverages</h1>
-      </div>
-      <div className='miniCard top50'>
-        <img src="https://cotmac.io/wp-content/uploads/2024/02/Cotmac-Intralogsitics-1.png" alt="" />
-        <h1 className='miniTitle'>Intralogistics <br/> Automation</h1>
-      </div>
-    </div>
-    </div>
-  </div>
-</Parallax>
-
-<div className="tb50"></div>
-
-<div className='solutionsDiv'>
-<h1 className='solutionsTitle'>Solutions</h1>
-<p className='solutionsDescribe'>At Cotmac, efficiency meets innovation & cutting-edge technology transforms possibilities into realities. Our end-to-end automation solutions define industry standards with seamless integration of hardware & software.</p>
-</div>
+    <h1 className='recentTitle'><span className='ourSpan'>RECENT</span> PROJECTS</h1>
 
 
+    <Swiper
+        modules={[Navigation, Autoplay]}
+        navigation
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        loop
+        spaceBetween={30}
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1200: {
+            slidesPerView: 3,
+          },
+        }}
+        >
+      <SwiperSlide>
+      <div className="carouselItem">
+            <div className="ourImageDiv">
+              <img src="/images/o1.PNG" className='ourImagee' alt="" />
+            </div>
+            <p className='recentP'>1 January, 2020</p>
 
-<div className="container-1200">
-  <div className='solutionMiniDivs'>
-    <div className='solutionMiniDiv a'>
-      <img className='solutionMiniDivImages' src="https://cotmac.io/wp-content/uploads/2024/02/Cotmac-Automation.jpg" alt="" />
-      <div className='hoverDiv'>
-      <div className='same'>
-      <h1 className='hoverTitle'>Automation</h1>
-      <p className='cw'>Driving efficiency and cost savings through factory and process automation solutions.</p>
+            <h1 className='recentH1'>WIRE EXTRUDER</h1>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+        <div className="carouselItem">
+            <div className="ourImageDiv">
+              <img src="/images/o2.PNG" className='ourImagee' alt="" />
+            </div>
+            <p className='recentP'>1 January, 2020</p>
+
+            <h1 className='recentH1'>ALCO BOTTELING UNIT</h1>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+        <div className="carouselItem">
+            <div className="ourImageDiv">
+              <img src="/images/o3.PNG" className='ourImagee' alt="" />
+            </div>
+            <p className='recentP'>1 January, 2020</p>
+
+            <h1 className='recentH1'>PRESS MACHINE</h1>
+          </div>
+        </SwiperSlide>
+       
+        <SwiperSlide>
+      <div className="carouselItem">
+            <div className="ourImageDiv">
+              <img src="/images/o1.PNG" className='ourImagee' alt="" />
+            </div>
+            <p className='recentP'>1 January, 2020</p>
+
+            <h1 className='recentH1'>WIRE EXTRUDER</h1>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+        <div className="carouselItem">
+            <div className="ourImageDiv">
+              <img src="/images/o2.PNG" className='ourImagee' alt="" />
+            </div>
+            <p className='recentP'>1 January, 2020</p>
+
+            <h1 className='recentH1'>ALCO BOTTELING UNIT</h1>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+        <div className="carouselItem">
+            <div className="ourImageDiv">
+              <img src="/images/o3.PNG" className='ourImagee' alt="" />
+            </div>
+            <p className='recentP'>1 January, 2020</p>
+
+            <h1 className='recentH1'>PRESS MACHINE</h1>
+          </div>
+        </SwiperSlide>
+
+    </Swiper>
+
+    <div className="centerDiv">
+        <button className='button'>LEARN MORE</button>
       </div>
-      </div>
-    </div>
-    <div className='solutionMiniDiv b'>
-      <img className='solutionMiniDivImages' src="https://cotmac.io/wp-content/uploads/2024/02/CotmacAutomation-Consulting05.jpg" alt="" />
-      <div className='hoverDiv'>
-      <div className='same'>
-      <h1 className='hoverTitle'>Automation Consulting</h1>
-      <p className='cw'>What are the driving factors behind successful execution of automation projects?</p>
-      </div>
-      </div>
-    </div>
-    <div className='solutionMiniDiv c'>
-      <img className='solutionMiniDivImages' src="https://cotmac.io/wp-content/uploads/2024/02/CotmacControlPanel02.jpg" alt="" />
-      <div className='hoverDiv'>
-      <div className='same'>
-      <h1 className='hoverTitle'>Control Panels</h1>
-      <p className='cw'>Complete range of automation and LT Panel solutions across industries delivered across the globe.</p>
-      </div>
-      </div>
-    </div>
-    <div className='solutionMiniDiv d'>
-      <img className='solutionMiniDivImages' src="https://cotmac.io/wp-content/uploads/2024/02/CotmacEngineeringServices04.jpg" alt="" />
-      <div className='hoverDiv'>
-      <div className='same'>
-      <h1 className='hoverTitle'>Engineering Services</h1>
-      <p className='cw'>Engineering services for control automation, plant engineering and design across industries.</p>
-      </div>
-      </div>
-    </div>
-    <div className='solutionMiniDiv e'>
-      <img className='solutionMiniDivImages' src="https://cotmac.io/wp-content/uploads/2024/02/CotmacGlobal10.jpg" alt="" />
-      <div className='hoverDiv'>
-      <div className='same'>
-      <h1 className='hoverTitle'>Global Engineering Outsourcing</h1>
-      <p className='cw'>A bench strength of 350+ engineers for customers keen to outsource skilled engineering resources/ manpower.</p>
-      </div>
-      </div>
-    </div>
-    <div className='solutionMiniDiv f'>
-      <img className='solutionMiniDivImages' src="https://cotmac.io/wp-content/uploads/2024/02/CotmacEPlan03.jpg" alt="" />
-      <div className='hoverDiv'>
-      <div className='same'>
-      <h1 className='hoverTitle'>Industrial Software</h1>
-      <p className='cw'>Cotmac provides design and engineering services, software sales & support and training services.</p>
-      </div>
-      </div>
-    </div>
-    <div className='solutionMiniDiv g'>
-      <img className='solutionMiniDivImages' src="https://cotmac.io/wp-content/uploads/2024/02/CotmacVision09.jpg" alt="" />
-      <div className='hoverDiv'>
-      <div className='same'>
-      <h1 className='hoverTitle'>Machine Vision</h1>
-      <p className='cw'>Cotmac is the largest Authorized Solution Partner (ASP) for Cognex, a global leader in providing vision systems.</p>
-      </div>
-      </div>
-    </div>
-    <div className='solutionMiniDiv h'>
-      <img className='solutionMiniDivImages' src="https://cotmac.io/wp-content/uploads/2024/02/CotmacPartnerProducts07.jpg" alt="" />
-      <div className='hoverDiv'>
-      <div className='same'>
-      <h1 className='hoverTitle'>Partner Products</h1>
-      <p className='cw'>Cotmac represents world-class brands in India – Lapp Kabel, Omron, Phoenix Contact and Siemens Switchgears.</p>
-      </div>
-      </div>
-    </div>
-    <div className='solutionMiniDiv i'>
-      <img className='solutionMiniDivImages' src="https://cotmac.io/wp-content/uploads/2024/02/CotmacRepair08.jpg" alt="" />
-      <div className='hoverDiv'>
-        <div className='same'>
-      <h1 className='hoverTitle'>Repairs and Service Centers</h1>
-      <p className='cw'>Cotmac offers industrial automation products repair services across a vast spectrum of hardware products.</p>
-      </div>
-      </div>
+
     </div>
 
-  </div>
-</div>
+    <div className="tb50"></div>
 
-<div className="tb50"></div>
+    <div className="contactDiv">
+      <div className="container-1000">
+      <h1 className='contactTitle'><span className='ourSpan'>CONTACT</span> FOR HIRE</h1>
+      <p className='contactText'> For products & service support, please contact us</p>
+      <p className='contactText pb'>Management Co. at +91-7018229954</p>
 
-<div className='solutionsDiv'>
-<h1 className='solutionsTitle'>CERTIFICANTIOONS</h1>
-<p className='solutionsDescribe'>Our processes & solutions comply with stringent quality & industry standards set by international certification organizations.</p>
-</div>
-
-<div className='imagesTogetherContainer'>
-  <img className='imagesTogether' src="https://cotmac.io/wp-content/uploads/2025/04/Frame-9.png" alt="" />
-</div>
-
-<div className="clientSayImage" id="testimonialsSection">
-  <div className="container-1500">
-    <div className="containerr">
-      <h1 className="clientTitlee">WHAT CLIENTS SAY</h1>
-      <p className="clientDescribee">
-        First-hand testimonials by clients that echo the success stories of our partnerships, highlighting the experiences that define our collaborative journey.
-      </p>
-    </div>
-
-    <div className="testimonial-wrapper">
-      <div className="testimonial-scroll-wrapper" id="testimonial-scroll">
-        <div className="testimonial-card">
-          <p>During our association, Cotmac have demonstrated cooperation, flexibility, quality and customer commitment to meet our project requirements.</p>
-          <h1>Umesh Upadhye</h1>
-          <p>Regional Vice President(SCM) || MAN Diesel & Turbo India Pvt. Ltd.</p>
+      <div className="contactFlex">
+        <div className="contact-33">
+          <input type="text" className='contactInput' />
         </div>
-        <div className="testimonial-card">
-          <p>Cotmac has an excellent team. They demonstrated the patience to understand our requirements.</p>
-          <h1>Ravi Kumar</h1>
-          <p>P Manager - Instr (Engg) Dept. || Aurobindo Pharma Ltd.</p>
+        <div className="contact-33">
+        <input type="text" className='contactInput' />
         </div>
-        <div className="testimonial-card">
-          <p>Cotmac has an excellent team. They demonstrated the patience to understand our requirements.</p>
-          <h1>Ravi Kumar</h1>
-          <p>P Manager - Instr (Engg) Dept. || Aurobindo Pharma Ltd.</p>
+        <div className="contact-33">
+        <input type="text" className='contactInput' />
         </div>
       </div>
-
-      <div className="scrollButtons">
-        <button onClick={() => scrollTestimonials('left')}>&larr;</button>
-        <button onClick={() => scrollTestimonials('right')}>&rarr;</button>
       </div>
     </div>
-  </div>
-</div>
-
 
 <div className='exelenceDiv'>
-  <h1 className='exelenceTitle'>Excellence, Effectiveness and Efficiency</h1>
+  <h1 className='exelenceTitle'><span className='ourSpan'>Excellence</span>, Effectiveness and Efficiency</h1>
 </div>
 
 <div className='container-1500' ref={sectionRef}>

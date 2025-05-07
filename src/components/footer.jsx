@@ -53,10 +53,10 @@ function Footer() {
         </div>
         <div className="width-25">
           <h2 className='footerMiniTitles'>FOLLOW US</h2>
-          <a href="https://www.facebook.com/"><img src="fb.png" alt="" className='logoUrl' /></a>
-          <a href="https://www.instagram.com/"><img src="inst.png" alt="" className='logoUrl' /></a>
-          <a href="https://www.facebook.com/"><img src="fb.png" alt="" className='logoUrl' /></a>
-          <a href="https://www.instagram.com/"><img src="inst.png" alt="" className='logoUrl' /></a>
+          <a href="https://www.facebook.com/"><img src="/images/fb.png" alt="" className='logoUrl' /></a>
+          <a href="https://www.instagram.com/"><img src="/images/inst.png" alt="" className='logoUrl' /></a>
+          <a href="https://www.facebook.com/"><img src="/images/fb.png" alt="" className='logoUrl' /></a>
+          <a href="https://www.instagram.com/"><img src="/images/inst.png" alt="" className='logoUrl' /></a>
         </div>
       </div>
       <hr className='hr' />
