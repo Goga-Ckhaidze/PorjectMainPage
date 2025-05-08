@@ -22,7 +22,7 @@ function Header() {
               </div>
 
               <button className="toggle-menu-btn" onClick={toggleMenu}>
-                {menuOpen ? 'Close' : 'Menu'}
+                {menuOpen ? '≣' : '☰'}
               </button>
 
               <div className={`Text ${menuOpen ? 'show' : ''}`}>
