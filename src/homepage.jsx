@@ -156,6 +156,7 @@ function App() {
             <div className='imgCenter'>
               <img src="/images/vaaaaa.png" alt="" className='ourImages' />
             </div>
+            <div className="pnone"></div>
             <h1 className='ourMiniTitle'>PLC</h1>
               <p className='ourMiniText'><span className='ourSpan'>A progammable</span> logic controller is an industrial digital computer Used to perform logical operations</p>
           </div>
@@ -431,38 +432,32 @@ function App() {
 
       <div className="contactFlex">
         <div className="contact-33">
-          <input type="text" className='contactInput' />
+          <input type="text" className='contactInput' placeholder='👨‍👨 Name*' />
         </div>
         <div className="contact-33">
-        <input type="text" className='contactInput' />
+        <input type="text" className='contactInput' placeholder='📩 Email*' />
         </div>
         <div className="contact-33">
-        <input type="text" className='contactInput' />
+        <input type="text" className='contactInput' placeholder='📞 Phone No*' />
         </div>
+      </div>
+      <div className='contactAreaDiv'>
+        <textarea className='contactArea' placeholder='💬 Message*'></textarea>
+      </div>
+      <div className='centerDiv'>
+      <input type="checkbox" className='contactCheckbox' />
+      <p className='contactMiniText'>Subscribe To Our Newsletter</p>
+
+      <div className='pt20'>
+        <button className='button'>SUBMIT</button>
+        </div>
+
       </div>
       </div>
     </div>
 
-<div className='exelenceDiv'>
-  <h1 className='exelenceTitle'><span className='ourSpan'>Excellence</span>, Effectiveness and Efficiency</h1>
-</div>
 
-<div className='container-1500' ref={sectionRef}>
-      <div className='lastFlex'>
-        {stats.map((stat, index) => (
-          <div className='w-25' key={index}>
-            <img src={stat.img} alt="" />
-            <h1 className='blue'>{counts[index]}+</h1>
-            <h1 className='blue'>{stat.label}</h1>
-          </div>
-        ))}
-      </div>
-    </div>
-<div className='tb50'></div>
 
-<hr className='hrr' />
-
-<div className="tb50"></div>
 </section>
 </>
   );

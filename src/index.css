@@ -11,7 +11,7 @@ body {
 .welcomeSection {
   position: relative;
   width: 100%;
-  height: 750px;
+  height: 1080px;
   overflow: hidden;
 }
 
@@ -392,15 +392,35 @@ body {
 }
 
 .footer {
-  background-color: #0099cc;
+  background-image: url('/images/footer.png');
+  background-repeat: no-repeat;
   padding: 50px 10px;
+  background-size: cover;
 }
 
 .aHref {
   color: #ffffff;
-  display: block;
   text-decoration: none;
-  padding-top: 5px;
+}
+
+.footerP {
+  color: #ffffff;
+  padding: 10px 0;
+  vertical-align: center;
+}
+
+.li {
+  padding-top: 10px;
+  color: #ffffff;
+}
+
+.iconsDiv {
+  padding-right: 15px;
+}
+
+.fl {
+  display: flex;
+  align-items: center;
 }
 
 .footerTitle {
@@ -416,7 +436,20 @@ body {
 
 .footerMiniTitles {
   color: #ffffff;
-  padding: 10px 0px;
+  padding: 25px 0px 10px 0px;
+}
+
+.footerLogo {
+  height: auto;
+  width: 100%;
+}
+
+.footerFirstDiv {
+  padding-left: 20px;
+}
+
+.lk {
+  padding: 35px 0 10px 0;
 }
 
 .hr {
@@ -424,8 +457,8 @@ body {
 }
 
 .copyright {
-  text-align: center;
   color: #ffffff;
+  padding-left: 27.5px;
 }
 
 .footerButton {
@@ -630,8 +663,7 @@ body {
   color: #ffffff;
   font-size: 17px;
   text-align: center;
-  padding-bottom: 50px;
-  padding-top: 10px;
+  padding: 10px 10px 50px 10px;
 }
 
 .serviceText {
@@ -643,7 +675,7 @@ body {
 
 .button {
   color:#ffffff;
-  background-color:  rgb(0, 24, 241);
+  background-color:  #1b57fde1;
   border-radius: 5px;
   letter-spacing: 2.5px;
   padding: 17.5px 25px;
@@ -654,11 +686,11 @@ body {
 }
 
 .button:hover {
-  background-color: rgba(0, 24, 241, 0.911);
+  background-color: #1b57fdf5;
 }
 
 .button:active {
-  background-color: rgb(0, 26, 255);
+  background-color: #1b57fd;
 }
 
 .centerDiv {
@@ -710,7 +742,7 @@ body {
 }
 
 .contactText {
-  color: #333;
+  color: #6d6d6dc2;
   font-size: 21px;
   text-align: center;
   padding-top: 5px;
@@ -730,6 +762,7 @@ body {
 .contact-33 {
   max-width: 33%;
   min-width: 33%;
+  text-align: center;
 }
 
 .pb {
@@ -739,6 +772,38 @@ body {
 .contactInput {
   width: 95%;
   padding: 10px 15px;
+  font-size: 17px;
+  background-color: #6d6d6d2c;
+}
+
+.contactArea {
+  margin-top: 25px;
+  width: 100%;
+  height: 150px;
+  background-color: #6d6d6d2c;
+  font-size: 17px;
+  padding: 10px 15px;
+  resize: none;
+  overflow: auto;
+}
+
+.contactCheckbox {
+  width: 15px;
+  height: 15px;
+}
+
+.contactMiniText {
+  color: #6d6d6dc2;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.pt20 {
+  padding-top: 20px;
+}
+
+.pnone {
+  display: none;
 }
 
 @media (max-width: 1210px) {
@@ -751,12 +816,32 @@ body {
   .width-25 {
     max-width: 50%;
     min-width: 50%;
-    text-align: center;
+  }
+
+  .ch {
+    padding-left: 25px;
   }
 
   .footerSecondFlex {
     flex-wrap: wrap;
   }
+
+  .contactAreaDiv {
+    padding: 0 7.5px;
+  }
+}
+
+@media (max-width: 996px) {
+  .contact-33 {
+    max-width: 30%;
+    min-width: 30%;
+  }
+
+  .contactFlex {
+    justify-content: space-between;
+    gap: none;
+  }
+
 }
 
 @media (max-width: 965px) {
@@ -767,6 +852,11 @@ body {
   .solutionMiniDivs {
     justify-content: center!important;
   }
+
+  .welcomeSection {
+    display: none;
+  }
+
 }
 
 @media (max-width: 880px) {
@@ -783,6 +873,13 @@ body {
     .solutionsDescribe {
       padding: 0px 10px;
     }
+
+    .products-25 {
+      max-width: 50%;
+      min-width: 50%;
+      margin-top: 50px;
+    }
+
   }
 
   @media (max-width: 870px) {
@@ -807,6 +904,15 @@ body {
     .height {
       height: 1300px!important;
     }
+    
+    .width-25 {
+      max-width: 100%;
+      min-width: 100%;
+    }
+
+    .footerFirstDiv {
+      padding: 0;
+    }
   }
 
   @media (max-width: 590px) {
@@ -814,6 +920,20 @@ body {
       max-width: 50%;
       min-width: 50%;
     }
+    .contact-33 {
+      max-width: 100%;
+      min-width: 100%;
+      margin-top: 10px;
+    }
+
+    .contactDiv {
+      height: 800px;
+    }
+
+    .contactAreaDiv {
+      padding: 0 14px;
+    }
+
   }
 
   @media (max-width: 770px) {
@@ -825,6 +945,15 @@ body {
     .lastFlex {
       flex-wrap: wrap!important;
       justify-content: center;
+    }
+
+    .middleImageDiv {
+      display: none;
+    }
+
+    .pnone {
+      display: block;
+      padding: 50px 0;
     }
   }
 
@@ -846,10 +975,18 @@ body {
     }
   }
 
+  @media (max-width: 440px) {
+    .products-25 {
+      max-width: 100%;
+      min-width: 100%;
+    }
+  }
+
   @media (max-width: 430px) {
     .width-25 {
       max-width: 100%;
       min-width: 100%;
+      padding-left: 20px;
     }
 
     .width-75 {
@@ -859,6 +996,12 @@ body {
 
     .footerFlex {
       flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .contactDiv {
+      height: 900px;
     }
   }
 }
