@@ -806,6 +806,10 @@ body {
   display: none;
 }
 
+.suk {
+  background-color: black;
+}
+
 @media (max-width: 1210px) {
   .companyLogos {
     padding: 0px 20px;
