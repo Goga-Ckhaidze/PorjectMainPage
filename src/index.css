@@ -810,9 +810,19 @@ body {
   background-color: black;
 }
 
+.z {
+  display: none;
+}
+
 @media (max-width: 1210px) {
   .companyLogos {
     padding: 0px 20px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .welcomeSection {
+    display: none;
   }
 }
 
@@ -857,9 +867,6 @@ body {
     justify-content: center!important;
   }
 
-  .welcomeSection {
-    display: none;
-  }
 
 }
 
@@ -883,6 +890,16 @@ body {
       min-width: 50%;
       margin-top: 50px;
     }
+
+    .imgCenter {
+      text-align: center;
+    }
+
+    .ourImages {
+      width: 50%;
+      height: 100px;
+    }
+
 
   }
 
@@ -916,6 +933,10 @@ body {
 
     .footerFirstDiv {
       padding: 0;
+    }
+
+    .ourImages {
+      width: 90%;
     }
   }
 
@@ -983,6 +1004,9 @@ body {
     .products-25 {
       max-width: 100%;
       min-width: 100%;
+    }
+    .ourImages {
+      width: 75%;
     }
   }
 

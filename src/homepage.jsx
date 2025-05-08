@@ -145,6 +145,8 @@ function App() {
       </div>
     </section>
 
+    
+
     <section className='middleSection'>
       <div className="container-1200">
 
@@ -156,7 +158,6 @@ function App() {
             <div className='imgCenter'>
               <img src="/images/vaaaaa.png" alt="" className='ourImages' />
             </div>
-            <div className="pnone"></div>
             <h1 className='ourMiniTitle'>PLC</h1>
               <p className='ourMiniText'><span className='ourSpan'>A progammable</span> logic controller is an industrial digital computer Used to perform logical operations</p>
           </div>
@@ -182,6 +183,8 @@ function App() {
           <p className='ourMiniText'><span className="ourSpan">A variable-frequency</span> drive used to facillate electro-mechanical movement in machine</p>
           </div>
         </div>
+
+        <div className="pnone"></div>
 
         <div className="middleImageDiv">
           <img src="/images/xx.png" alt="" className='middleImage' />
