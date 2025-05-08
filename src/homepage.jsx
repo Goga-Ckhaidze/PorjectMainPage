@@ -163,7 +163,7 @@ function App() {
           </div>
           <div className="products-25">
           <div className='imgCenter'>
-            <img src="/images/ikk.jpg" alt="" className='ourImages' />
+            <img src="/images/vaaaaaa.jpg" alt="" className='ourImages' />
           </div>
           <h1 className='ourMiniTitle'>HMI</h1>
             <p className='ourMiniText'><span className='ourSpan'>Human</span> machine interface is a display device used to provide process visualization and animation</p>
