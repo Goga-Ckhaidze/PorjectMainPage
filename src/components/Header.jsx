@@ -26,9 +26,10 @@ function Header() {
               </button>
 
               <div className={`Text ${menuOpen ? 'show' : ''}`}>
+              <div className="l"></div>
                 <Link to="/">HomePage</Link>
                 <div className="line"></div>
-
+                <div className="l"></div>
                 <div className="dropdown">
                   <span className="dropdown-toggle">Industries ▼</span>
                   <div className="dropdown-menu">
@@ -38,12 +39,15 @@ function Header() {
                   </div>
                 </div>
                 <div className="line"></div>
-
+                <div className="l"></div>
                 <a href="/">About US</a>
                 <div className="line"></div>
+                <div className="l"></div>
                 <a href="/">Contact US</a>
                 <div className="line"></div>
+                <div className="l"></div>
                 <a href="/">Gallery</a>
+                <div className="l"></div>
               </div>
             </div>
           </div>
