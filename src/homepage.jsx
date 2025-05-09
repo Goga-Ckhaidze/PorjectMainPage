@@ -145,6 +145,77 @@ function App() {
       </div>
     </section>
 
+        <section className="welcomeSection z">
+      <div className="welcomeVideoDiv">
+        <img src="/images/juja.png" alt="" className='welcomeMainImage' />
+
+        <div className="carouselOverlay">
+          <Swiper
+            modules={[Navigation]}
+            navigation
+            spaceBetween={30}
+            slidesPerView={1}
+            loop
+          >
+            <SwiperSlide>
+              <div className="carouselItem">
+                <img src="/images/automaxxx.png" className='automaxxx' alt="" />
+                <p>slide 1</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="carouselItem">
+              <img src="/images/automaxxx.png" className='automaxxx' alt="" />
+              <p>slide 2</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="carouselItem">
+              <img src="/images/automaxxx.png" className='automaxxx' alt="" />
+              <p>slide 3</p>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+      </div>
+    </section>
+
+            <section className="welcomeSection v">
+      <div className="welcomeVideoDiv">
+        <img src="/images/jujeqsa.png" alt="" className='welcomeMainImage' />
+
+        <div className="carouselOverlay">
+          <Swiper
+            modules={[Navigation]}
+            navigation
+            spaceBetween={30}
+            slidesPerView={1}
+            loop
+          >
+            <SwiperSlide>
+              <div className="carouselItem">
+                <img src="/images/automaxxx.png" className='automaxxx' alt="" />
+                <p className='uu'>slide 1</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="carouselItem">
+              <img src="/images/automaxxx.png" className='automaxxx' alt="" />
+              <p className='uu'>slide 2</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="carouselItem">
+              <img src="/images/automaxxx.png" className='automaxxx' alt="" />
+              <p className='uu'>slide 3</p>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+      </div>
+    </section>
+
+
     
 
     <section className='middleSection'>
@@ -313,7 +384,10 @@ function App() {
     >
       {logoUrls1.map((url, i) => (
         <SwiperSlide key={i}>
+          <img src={url} alt={`companyLogo-${i}`} className="logo jkl" />
+          <div className='w100'>
           <img src={url} alt={`companyLogo-${i}`} className="logo" />
+          </div>
         </SwiperSlide>
       ))}
     </Swiper>
