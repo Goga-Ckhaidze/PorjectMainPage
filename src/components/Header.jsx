@@ -40,10 +40,10 @@ function Header() {
                 </div>
                 <div className="line"></div>
                 <div className="l"></div>
-                <a href="/">About US</a>
+                <a href="/aboutus">About US</a>
                 <div className="line"></div>
                 <div className="l"></div>
-                <a href="/">Contact US</a>
+                <a href="/contactus">Contact US</a>
                 <div className="line"></div>
                 <div className="l"></div>
                 <a href="/">Gallery</a>

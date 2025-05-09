@@ -24,7 +24,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://cotmac.io/wp-content/uploads/2024/04/career-banner.jpg');
+    background-image: url('/images/vvv.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(1px);  
@@ -46,7 +46,7 @@
   }
   
   .miniRobot {
-    background-image: url('/za.png');
+    background-image: url('/images/za.png');
     max-width: 30%;
     min-width: 30%;
     background-size: cover;
@@ -98,7 +98,7 @@
   }
 
   .workImage {
-    background-image: url('/zazaza.jpg');
+    background-image: url('/images/zazaza.jpg');
     max-width: 10%;
     min-width: 30%;
     height: 230px;
@@ -126,7 +126,7 @@
   }
 
   .teamImage {
-    background-image: url('/team.jpg');
+    background-image: url('/images/v.png');
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat;
@@ -135,3 +135,62 @@
     margin: 100px 0;
   }
 
+  .miniRobot2 {
+    display: none;
+  }
+
+  .noneFlex {
+    display: none;
+  }
+
+  @media (max-width: 1266px) {
+    .miniRobot {
+    min-width: 50%;
+    max-width: 50%;
+    }
+
+      @media (max-width: 770px) {
+    .miniRobot {
+    min-width: 100%;
+    max-width: 100%;
+    }
+    
+    .texts {
+      max-width: 100%;
+      min-width: 100%;
+    }
+
+    .workTexts {
+      max-width: 100%;
+      min-width: 100%;
+    }
+
+    .workTitle {
+      padding-top: 50px;
+    }
+
+    .miniTitlee {
+      padding-top: 50px;
+    }
+  }
+
+  @media (max-width: 440px) {
+        .miniRobot {
+          display: none;
+    }
+
+    .miniRobot2 {
+      display: block;
+      background-image: url('images/zxc.jpg');
+      width: 320px;
+      height: 300px;
+    }
+
+    .noneFlex {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+
+}

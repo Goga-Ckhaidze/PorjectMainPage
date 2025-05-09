@@ -15,6 +15,7 @@ function ContactUs() {
     <div className="container-1500">
     <div className='robotFlex'>
       <div className='miniRobot'></div>
+            <div className='miniRobot2'></div>
       <div className='texts'>
         <div>
         <h1 className='miniTitlee'>We're a Great Place to Work</h1>
@@ -27,7 +28,10 @@ function ContactUs() {
 
 
   <div className="workFlex">
-    <div className="workImage"></div>
+      <div className='miniRobot'></div>
+      <div className='noneFlex'>
+            <div className='miniRobot2'></div>
+            </div>
     <div className='workTexts'>
       <div>
         <h1 className='workTitle'>WORK WITH US?</h1>
