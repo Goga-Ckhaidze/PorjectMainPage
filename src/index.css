@@ -864,6 +864,10 @@ body {
   justify-content: space-between;
 }
 
+.papalam {
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
 @media (max-width: 720px) {
   .widthhh-25 {
     max-width: 50%;

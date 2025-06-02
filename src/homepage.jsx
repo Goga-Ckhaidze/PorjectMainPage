@@ -125,19 +125,19 @@ function App() {
             <SwiperSlide>
               <div className="carouselItem">
                 <img src="/images/automaxxx.png" className='automaxxx' alt="" />
-                <p>slide 1</p>
+                <p className='papalam'>Streamlining Key Industries Globally With Transformative Factory Automation Solutions</p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="carouselItem">
               <img src="/images/automaxxx.png" className='automaxxx' alt="" />
-              <p>slide 2</p>
+              <p className='papalam'>Delivering Decisive Solutions for Diverse Global Challenges Across Industries</p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="carouselItem">
               <img src="/images/automaxxx.png" className='automaxxx' alt="" />
-              <p>slide 3</p>
+              <p className='papalam'>Optimising Crucial Production Processes With Top-Tier Integration Expertise</p>
               </div>
             </SwiperSlide>
           </Swiper>
@@ -160,19 +160,19 @@ function App() {
             <SwiperSlide>
               <div className="carouselItem">
                 <img src="/images/automaxxx.png" className='automaxxx' alt="" />
-                <p>slide 1</p>
+                <p className='papalam'>Streamlining Key Industries Globally With Transformative Factory Automation Solutions</p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="carouselItem">
               <img src="/images/automaxxx.png" className='automaxxx' alt="" />
-              <p>slide 2</p>
+              <p className='papalam'>Delivering Decisive Solutions for Diverse Global Challenges Across Industries</p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="carouselItem">
               <img src="/images/automaxxx.png" className='automaxxx' alt="" />
-              <p>slide 3</p>
+              <p className='papalam'>Optimising Crucial Production Processes With Top-Tier Integration Expertise</p>
               </div>
             </SwiperSlide>
           </Swiper>
@@ -195,19 +195,19 @@ function App() {
             <SwiperSlide>
               <div className="carouselItem">
                 <img src="/images/automaxxx.png" className='automaxxx' alt="" />
-                <p className='uu'>slide 1</p>
+                <p className='uu'>Streamlining Key Industries Globally With Transformative Factory Automation Solutions</p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="carouselItem">
               <img src="/images/automaxxx.png" className='automaxxx' alt="" />
-              <p className='uu'>slide 2</p>
+              <p className='uu'>Delivering Decisive Solutions for Diverse Global Challenges Across Industries</p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="carouselItem">
               <img src="/images/automaxxx.png" className='automaxxx' alt="" />
-              <p className='uu'>slide 3</p>
+              <p className='uu'>Optimising Crucial Production Processes With Top-Tier Integration Expertise</p>
               </div>
             </SwiperSlide>
           </Swiper>
